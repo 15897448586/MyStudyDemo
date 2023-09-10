@@ -2,6 +2,45 @@ import java.util.*;
 
 public class Solution {
 
+    public int[] searchRange(int[] nums, int target) {
+        int[] ans = new int[]{-1, -1};
+        ans[0] = getFirst(nums, target);
+        ans[1] = getLast(nums, target);
+        return ans;
+    }
+
+    private int getFirst(int[] nums, int target) {
+        int l = 0, r = nums.length - 1;
+        while (l <= r) {
+            int mid = l + (r - l) >> 1;
+            if (nums[mid] >= target) {
+                if (nums[mid] == target && (mid == 0 || nums[mid - 1] != nums[mid])){
+                    return mid;
+                }
+                r = mid - 1;
+            } else {
+                l = mid + 1;
+            }
+        }
+        return -1;
+    }
+
+    private int getLast(int[] nums, int target) {
+        int l = 0, r = nums.length - 1;
+        while (l <= r) {
+            int mid = l + (r - l) >> 1;
+            if (nums[mid] <= target) {
+                if (nums[mid] == target && (mid == nums.length - 1 || nums[mid - 1] != nums[mid])){
+                    return mid;
+                }
+                l = mid + 1;
+            } else {
+                r = mid - 1;
+            }
+        }
+        return -1;
+    }
+
     public void reorderList(ListNode head) {
         ListNode fast = head;
         ListNode slow = head;
@@ -85,23 +124,26 @@ public class Solution {
 //        ListNode head = ss.buildList(arr);
 //        System.out.println(ss.pairSum(head));
     }
-    static Map<Character,Integer> map;
+
+    static Map<Character, Integer> map;
+
     static {
-        map = new HashMap<Character,Integer>();
+        map = new HashMap<Character, Integer>();
         map.put('a', 1);
         map.put('e', 2);
         map.put('i', 3);
         map.put('o', 4);
         map.put('u', 5);
     }
+
     public int longestBeautifulSubstring(String word) {
         int i = 0, n = word.length();
         int max = 0;
-        while (i  < n) {
+        while (i < n) {
             int low = i;
             i++;
             int r = map.get(word.charAt(i));
-            int l = map.get(word.charAt(i -  1));
+            int l = map.get(word.charAt(i - 1));
             while (i < n && (l == r || r == l + 1)) {
                 i++;
             }
@@ -128,10 +170,10 @@ public class Solution {
                 TreeNode node = queue.poll();
                 if (flag) {
                     temp.addLast(node.val);
-                }else {
+                } else {
                     temp.addFirst(node.val);
                 }
-                if(node.left != null) {
+                if (node.left != null) {
                     queue.offer(node.left);
                 }
                 if (node.right != null) {
@@ -148,17 +190,17 @@ public class Solution {
         if (intervals.length == 0 && newInterval.length == 0) {
             return new int[0][2];
         }
-        int[][] res = new int[intervals.length+1][];
+        int[][] res = new int[intervals.length + 1][];
         res[0] = newInterval;
         for (int i = 1; i < res.length; i++) {
             res[i] = intervals[i - 1];
         }
         intervals = res;
-        Arrays.sort(intervals,(interval1, interval2) -> interval1[0] - interval2[0]);
+        Arrays.sort(intervals, (interval1, interval2) -> interval1[0] - interval2[0]);
         List<int[]> ans = new ArrayList<>();
         int i = 0, n = intervals.length;
         while (i < n) {
-            int low =i;
+            int low = i;
             i++;
             int max = intervals[low][1];
             while (i < n && (intervals[i][0] == intervals[i - 1][0] || (intervals[i][0] > intervals[i - 1][0] && intervals[i - 1][1] >= intervals[i][0]))) {
@@ -193,7 +235,7 @@ public class Solution {
                         queue.addLast(node.right);
                     }
                 }
-            }else {
+            } else {
                 for (int i = 0; i < size; i++) {
                     TreeNode node = queue.removeLast();
                     temp.add(node.val);
@@ -206,7 +248,7 @@ public class Solution {
                 }
             }
             ans.add(temp);
-            flag = ! flag;
+            flag = !flag;
         }
         return ans;
     }
@@ -448,6 +490,7 @@ class TreeNode {
 class Codec1 {
     int INF = -2000;
     TreeNode emptyNode = new TreeNode(INF);
+
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
         if (root == null) return "";
@@ -458,8 +501,8 @@ class Codec1 {
             TreeNode node = queue.poll();
             sb.append(node.val + "_");
             if (node != emptyNode) {
-                queue.offer(node.left == null ? emptyNode: node.left);
-                queue.offer(node.right == null ? emptyNode: node.right);
+                queue.offer(node.left == null ? emptyNode : node.left);
+                queue.offer(node.right == null ? emptyNode : node.right);
             }
         }
         return sb.toString();
@@ -477,11 +520,11 @@ class Codec1 {
             TreeNode poll = queue.poll();
             int a = Integer.parseInt(ss[i]);
             int b = Integer.parseInt(ss[i + 1]);
-            if(a != INF) {
+            if (a != INF) {
                 poll.left = new TreeNode(a);
                 queue.offer(poll.left);
             }
-            if(b != INF) {
+            if (b != INF) {
                 poll.right = new TreeNode(b);
                 queue.offer(poll.right);
             }
@@ -494,6 +537,7 @@ class Codec {
 
     private int INF = -2000;
     private TreeNode emptyNode = new TreeNode();
+
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
         if (root == null) return "";
@@ -504,8 +548,8 @@ class Codec {
             TreeNode node = queue.poll();
             if (node != null) {
                 sb.append(node.val + "_");
-                queue.offer(node.left == null ? emptyNode: node.left);
-                queue.offer(node.right == null ? emptyNode: node.right);
+                queue.offer(node.left == null ? emptyNode : node.left);
+                queue.offer(node.right == null ? emptyNode : node.right);
             }
         }
         return sb.toString();
