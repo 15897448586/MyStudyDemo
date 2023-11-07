@@ -115,7 +115,9 @@ public class HashTable<K,V> {
             if (key == e.key) {
                 pre.next = e.next;
                 size--;
-                if (headNode.next == null) used--;
+                if (headNode.next == null) {
+                    used--;
+                }
                 return;
             }
         } while (e.next != null);
@@ -140,5 +142,20 @@ public class HashTable<K,V> {
             }
         }
         return null;
+    }
+    public int getSize(){
+        return this.size;
+    }
+
+    public static void main(String[] args) {
+        HashTable<Integer,Integer> hashTable =new HashTable<Integer,Integer>();
+        hashTable.put(1,3);
+        hashTable.put(2,3);
+        hashTable.put(3,3);
+        hashTable.put(1,3);
+        System.out.println(hashTable.get(1));
+        hashTable.remove(1);
+        hashTable.put(2,4);
+        System.out.println(hashTable.getSize());
     }
 }
