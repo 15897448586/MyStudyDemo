@@ -127,10 +127,10 @@
         <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[297]二叉树的序列化与反序列化.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/../leetcode/editor/cn/doc/content/[297]二叉树的序列化与反序列化.md" />
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[297]二叉树的序列化与反序列化.md" />
               <option name="frontendQuestionId" value="leetcode.cn297" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[297]二叉树的序列化与反序列化.java" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[297]二叉树的序列化与反序列化.java" />
               <option name="titleSlug" value="serialize-and-deserialize-binary-tree" />
             </LeetcodeEditor>
           </value>
@@ -993,6 +993,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[297]二叉树的序列化与反序列化.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[297]二叉树的序列化与反序列化.md" />
+              <option name="frontendQuestionId" value="leetcode.cn297" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[297]二叉树的序列化与反序列化.java" />
+              <option name="titleSlug" value="serialize-and-deserialize-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="E:/leetcode/leetcode/editor/cn/[347]前 K 个高频元素.java">
           <value>
             <LeetcodeEditor>
@@ -1056,6 +1067,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="E:/leetcode/leetcode/editor/cn/[451]根据字符出现频率排序.java" />
               <option name="titleSlug" value="sort-characters-by-frequency" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[46]全排列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[46]全排列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn46" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[46]全排列.java" />
+              <option name="titleSlug" value="permutations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[47]全排列 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[47]全排列 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn47" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[47]全排列 II.java" />
+              <option name="titleSlug" value="permutations-ii" />
             </LeetcodeEditor>
           </value>
         </entry>

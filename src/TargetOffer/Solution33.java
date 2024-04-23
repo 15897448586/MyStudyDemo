@@ -75,17 +75,17 @@ public class Solution33 {
 
         public TreeNode deserialize(String data) {
             String[] req = data.split(",");
-            ArrayList<String> r = new ArrayList<>(Arrays.asList(req));
+            LinkedList<String> r = new LinkedList<>(Arrays.asList(req));
             return dfsdeserialize(r);
         }
 
-        public TreeNode dfsdeserialize(ArrayList<String> r) {
-            if ("null".equals(r.get(0))) {
-                r.remove(0);
+        public TreeNode dfsdeserialize(LinkedList<String> r) {
+            if ("null".equals(r.peekFirst())) {
+                r.removeFirst();
                 return null;
             }
-            TreeNode node = new TreeNode(Integer.valueOf(r.get(0)));
-            r.remove(0);
+            TreeNode node = new TreeNode(Integer.valueOf(r.getFirst()));
+            r.removeFirst();
             node.left = dfsdeserialize(r);
             node.right = dfsdeserialize(r);
             return node;
