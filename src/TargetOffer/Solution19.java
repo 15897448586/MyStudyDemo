@@ -1,5 +1,7 @@
 package TargetOffer;
 
+import Structure.ListNode;
+
 /**
  * @Author zlx
  * @Date 2024/4/22 23:34
