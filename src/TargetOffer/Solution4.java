@@ -1,5 +1,7 @@
 package TargetOffer;
 
+import Structure.ListNode;
+
 /**
  * 反转链表的同时得到数量
  * @Author zlx
