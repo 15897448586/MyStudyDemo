@@ -70,7 +70,7 @@ public class Solution33 {
     class Codec1 {
         public String serialize(TreeNode root) {
             if (root == null) return "null";
-            return serialize(root.left) + "," + serialize(root.right) + "," + root.val;
+            return root.val + "," + serialize(root.left) + "," + serialize(root.right);
         }
 
         public TreeNode deserialize(String data) {
@@ -80,14 +80,14 @@ public class Solution33 {
         }
 
         public TreeNode dfsdeserialize(ArrayList<String> r) {
-            if ("null".equals(r.get(r.size() - 1))) {
-                r.remove(r.size() - 1);
+            if ("null".equals(r.get(0))) {
+                r.remove(0);
                 return null;
             }
-            TreeNode node = new TreeNode(Integer.valueOf(r.get(r.size() - 1)));
-            r.remove(r.size() - 1);
-            node.right = dfsdeserialize(r);
+            TreeNode node = new TreeNode(Integer.valueOf(r.get(0)));
+            r.remove(0);
             node.left = dfsdeserialize(r);
+            node.right = dfsdeserialize(r);
             return node;
         }
     }
