@@ -3,6 +3,17 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[102]二叉树的层序遍历.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcode/editor/cn/doc/content/[102]二叉树的层序遍历.md" />
+              <option name="frontendQuestionId" value="leetcode.cn102" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[102]二叉树的层序遍历.java" />
+              <option name="titleSlug" value="binary-tree-level-order-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[1052]爱生气的书店老板.java">
           <value>
             <LeetcodeEditor>
@@ -22,6 +33,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[105]从前序与中序遍历序列构造二叉树.java" />
               <option name="titleSlug" value="construct-binary-tree-from-preorder-and-inorder-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[112]路径总和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcode/editor/cn/doc/content/[112]路径总和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn112" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[112]路径总和.java" />
+              <option name="titleSlug" value="path-sum" />
             </LeetcodeEditor>
           </value>
         </entry>
