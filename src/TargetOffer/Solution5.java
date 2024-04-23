@@ -1,5 +1,7 @@
 package TargetOffer;
 
+import Structure.TreeNode;
+
 import java.util.HashMap;
 import java.util.Map;
 
