@@ -1,6 +1,7 @@
 package TargetOffer;
 
 import java.util.PriorityQueue;
+import java.util.Random;
 
 /**
  * @Author zlx
@@ -41,5 +42,21 @@ public class Solution36 {
     }
     // 2. 优先队列
 
-
+    private int partition(int[] nums, int left, int right, int k) {
+        if (left == right) return nums[k];
+        int i = left, j = left;
+        Random ram = new Random();
+        int keyIndex = ram.nextInt(nums.length);
+        for (; j < right; j++) {
+            if (nums[j] <= nums[keyIndex]) {
+                if (i != j) {
+                    swap(nums, i, j);
+                }
+                i++;
+            }
+        }
+        swap(nums,i, keyIndex);
+        if (k <= i) return quickselect(nums, left, i, k);
+        else return quickselect(nums, j + 1, right, k);
+    }
 }
