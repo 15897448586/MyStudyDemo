@@ -344,6 +344,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[1146]快照数组.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[1146]快照数组.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1146" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[1146]快照数组.java" />
+              <option name="titleSlug" value="snapshot-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="E:/leetcode/leetcode/editor/cn/[1164]指定日期的产品价格.java">
           <value>
             <LeetcodeEditor>
@@ -938,6 +949,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[2462]雇佣 K 位工人的总代价.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[2462]雇佣 K 位工人的总代价.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2462" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[2462]雇佣 K 位工人的总代价.java" />
+              <option name="titleSlug" value="total-cost-to-hire-k-workers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="E:/leetcode/leetcode/editor/cn/[24]两两交换链表中的节点.java">
           <value>
             <LeetcodeEditor>
@@ -979,6 +1001,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="E:/leetcode/leetcode/editor/cn/[2624]蜗牛排序.java" />
               <option name="titleSlug" value="snail-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[2639]查询网格图中每一列的宽度.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[2639]查询网格图中每一列的宽度.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2639" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[2639]查询网格图中每一列的宽度.java" />
+              <option name="titleSlug" value="find-the-width-of-columns-of-a-grid" />
             </LeetcodeEditor>
           </value>
         </entry>
