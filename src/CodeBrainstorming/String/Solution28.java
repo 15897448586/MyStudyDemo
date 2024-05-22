@@ -27,30 +27,52 @@ public class Solution28 {
 
     // 构建next数组
 
-//    public int[] computeNext(String pattern) {
-//        int[] next = new int[pattern.length()];
-//        int i = 0, j = -1;
-//        // 初始化next数组的第一个元素为-1,表示无模式匹配时将字符串向右移动一位
-//        next[0] = -1;
-//        // 从第二个元素开始遍历模式串
-//        while (i < pattern.length() - 1) {
-//
-//            // 如果j为-1或者当前字符匹配，则继续向后匹配
-//            if (j == -1 || pattern.charAt(i) == pattern.charAt(j)) {
-//                i++;
-//                j++;
-//                // 记录当前位置的部分匹配值
-//                next[i] = j;
-//            }else {
-//                // 如果当前字符不匹配，则根据部分匹配表决定j的移动位置
-//                j = next[j];
-//            }
-//        }
-//        return next;
-//    }
+    public static int[] buildNext(String pattern) {
+        int[] next = new int[pattern.length()];
+        // 将第一个位置初始化为-1
+        next[0] = -1;
+        int j = -1;
+        for (int i = 1; i < pattern.length(); i++) {
+            // 回溯到前一个字符的最长相同前后缀位置
+            while (j >= 0 && pattern.charAt(i) != pattern.charAt(j + 1)) {
+                j = next[j];
+            }
+            if (pattern.charAt(i) == pattern.charAt(j + 1)) {
+                j++;
+            }
+            next[i] = j;
+        }
+        return next;
+    }
+
+    // KMP算法主方法
+    public int search(String text, String pattern) {
+        int[] next = buildNext(pattern);
+        int j = -1; // pattern的匹配索引
+        for (int i = 0; i < text.length(); i++) {
+            // 当text和pattern对应位置字符不匹配时，根据next数组更新pattern的匹配索引j
+            while (j >= 0 && text.charAt(i) != pattern.charAt(j + 1)) {
+                j = next[j];
+            }
+            // 当text和pattern对应位置字符匹配时，移动pattern的匹配索引j
+            if (text.charAt(i) == pattern.charAt(j + 1)) {
+                j++;
+            }
+            // 如果pattern的匹配索引j等于pattern长度，说明找到了匹配
+            if (j == pattern.length() - 1) {
+                // 返回匹配的起始位置
+                return i - j;
+            }
+        }
+        // 没有找到匹配，返回-1
+        return -1;
+    }
 //
 //    public int strStr(String haystack, String needle) {
 //    }
 
+    public static void main(String[] args) {
+        int[] aabaafs = buildNext("aabaaf");
+    }
 
 }
