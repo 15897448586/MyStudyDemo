@@ -72,7 +72,50 @@ public class Solution28 {
 //    }
 
     public static void main(String[] args) {
+//        String text = "ABABABABCABABABABCABABABABC";
+//        String pattern = "ABABC";
+//        Solution28 kmp = new Solution28();
+//        int index = kmp.search(text, pattern);
+//        if (index != -1) {
+//            System.out.println("Pattern found at index: " + index);
+//        } else {
+//            System.out.println("Pattern not found.");
+//        }
+
         int[] aabaafs = buildNext("aabaaf");
+    }
+
+    public int strStr(String haystack, String needle) {
+        int[] next = computeNext(needle);
+        int j = -1;
+        for (int i = 0; i < haystack.length(); i++) {
+            while (j >= 0 && haystack.charAt(i) != needle.charAt(j + 1)) {
+                j = next[j];
+            }
+            if (haystack.charAt(i) == needle.charAt(j + 1)) {
+                j++;
+            }
+            if (j == needle.length() - 1) {
+                return i - j;
+            }
+        }
+        return -1;
+    }
+
+    private int[] computeNext(String pattern) {
+        int[] next = new int[pattern.length()];
+        next[0] = -1;
+        int j = -1;
+        for (int i = 1; i < pattern.length(); i++) {
+            while (j >= 0 && pattern.charAt(i) != pattern.charAt(j + 1)) {
+                j = next[j];
+            }
+            if (pattern.charAt(i) == pattern.charAt(j + 1)) {
+                j++;
+            }
+            next[i] = j;
+        }
+        return next;
     }
 
 }
