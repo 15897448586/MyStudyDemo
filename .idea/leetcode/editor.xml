@@ -1433,6 +1433,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[1535]找出数组游戏的赢家.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[1535]找出数组游戏的赢家.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1535" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[1535]找出数组游戏的赢家.java" />
+              <option name="titleSlug" value="find-the-winner-of-an-array-game" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="E:/leetcode/leetcode/editor/cn/[1581]进店却未进行过交易的顾客.java">
           <value>
             <LeetcodeEditor>
@@ -1485,6 +1496,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="E:/leetcode/leetcode/editor/cn/[1728]猫和老鼠 II.java" />
               <option name="titleSlug" value="cat-and-mouse-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[1738]找出第 K 大的异或坐标值.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[1738]找出第 K 大的异或坐标值.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1738" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[1738]找出第 K 大的异或坐标值.java" />
+              <option name="titleSlug" value="find-kth-largest-xor-coordinate-value" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1906,6 +1928,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[2644]找出可整除性得分最大的整数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[2644]找出可整除性得分最大的整数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2644" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[2644]找出可整除性得分最大的整数.java" />
+              <option name="titleSlug" value="find-the-maximum-divisibility-score" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="E:/leetcode/leetcode/editor/cn/[2649]嵌套数组生成器.java">
           <value>
             <LeetcodeEditor>
@@ -1991,6 +2024,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="E:/leetcode/leetcode/editor/cn/[2807]在链表中插入最大公约数.java" />
               <option name="titleSlug" value="insert-greatest-common-divisors-in-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[2903]找出满足差值条件的下标 I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[2903]找出满足差值条件的下标 I.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2903" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[2903]找出满足差值条件的下标 I.java" />
+              <option name="titleSlug" value="find-indices-with-index-and-value-difference-i" />
             </LeetcodeEditor>
           </value>
         </entry>
