@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
+import java.util.function.Function;
 
 /**
  * @Author zlx
@@ -49,8 +51,47 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        Test test = new Test();
-        int[] changed = {2,1,2,4,2,4};
-        test.findOriginalArray(changed);
+        calculate(new Num(1,2,3), num -> {
+            return num.a + num.b + num.c;
+        });
+
+        calculate(new Num(1,2,3), num -> {
+            return num.a * num.b * num.c;
+        });
+
+        calculate(new Num(1,2,3), num -> {
+            return num.a - num.b - num.c;
+        });
     }
+
+
+
+    private static int calculate(Num num,Function<Num ,Integer> function) {
+        Integer apply = function.apply(num);
+        System.out.println(apply);
+        return apply;
+    }
+
+}
+class Num{
+    public int a;
+    public int b;
+    public int c;
+
+    public Num(int a, int b, int c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+    }
+
+    public int getA() {
+        return a;
+    }
+    public int getB() {
+        return b;
+    }
+    public int getC() {
+        return c;
+    }
+
 }
