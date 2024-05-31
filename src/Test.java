@@ -1,7 +1,6 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 
 /**
  * @Author zlx
@@ -51,17 +50,18 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        calculate(new Num(1,2,3), num -> {
-            return num.a + num.b + num.c;
-        });
-
-        calculate(new Num(1,2,3), num -> {
-            return num.a * num.b * num.c;
-        });
-
-        calculate(new Num(1,2,3), num -> {
-            return num.a - num.b - num.c;
-        });
+//        calculate(new Num(1,2,3), num -> {
+//            return num.a + num.b + num.c;
+//        });
+//
+//        calculate(new Num(1,2,3), num -> {
+//            return num.a * num.b * num.c;
+//        });
+//
+//        calculate(new Num(1,2,3), num -> {
+//            return num.a - num.b - num.c;
+//        });
+        sort();
     }
 
 
@@ -72,9 +72,46 @@ public class Test {
         return apply;
     }
 
+    private static  void sort() {
+        List<Num> nums = Arrays.asList(new Num(1, 2, 3), new Num(3, 2, 1), new Num(2, 1, 3));
+        nums.sort(Comparator.comparing(Num::getA).thenComparing(Num::getB));
+        nums.sort((x, y) -> {
+            if (x.getA() == y.getA()) {
+                return x.getB() - y.getB();
+            }
+            return y.getA()- x.getA();
+        });
+        int i = Collections.binarySearch(nums, new Num(3, 2, 0), (x, y) -> {
+            if (x.getA() == y.getA()) {
+                return x.getB() - y.getB();
+            }
+            return y.getA() - x.getA();
+        });
+        System.out.println(i);
+        Num num = nums.get(i);
+        System.out.println(num);
+        List<Num> collect = nums.stream().filter(x -> x.getA() == 2).collect(Collectors.toList());
+        List<Num> collect1 = nums.stream().sorted((x, y) -> {
+            if (x.getA() == y.getA()) {
+                return x.getB() - y.getB();
+            }
+            return y.getA() - x.getA();
+        }).collect(Collectors.toList());
+    }
+
 }
 class Num{
     public int a;
+
+    @Override
+    public String toString() {
+        return "Num{" +
+                "a=" + a +
+                ", b=" + b +
+                ", c=" + c +
+                '}';
+    }
+
     public int b;
     public int c;
 
