@@ -1458,10 +1458,10 @@
         <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[494]目标和.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/../leetcode/editor/cn/doc/content/[494]目标和.md" />
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[494]目标和.md" />
               <option name="frontendQuestionId" value="leetcode.cn494" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[494]目标和.java" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[494]目标和.java" />
               <option name="titleSlug" value="target-sum" />
             </LeetcodeEditor>
           </value>
@@ -2255,6 +2255,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[101]对称二叉树.java" />
               <option name="titleSlug" value="symmetric-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[1103]分糖果 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[1103]分糖果 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1103" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[1103]分糖果 II.java" />
+              <option name="titleSlug" value="distribute-candies-to-people" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3094,6 +3105,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[2981]找出出现至少三次的最长特殊子字符串 I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[2981]找出出现至少三次的最长特殊子字符串 I.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2981" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[2981]找出出现至少三次的最长特殊子字符串 I.java" />
+              <option name="titleSlug" value="find-longest-special-substring-that-occurs-thrice-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[3040]相同分数的最大操作数目 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[3040]相同分数的最大操作数目 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn3040" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[3040]相同分数的最大操作数目 II.java" />
+              <option name="titleSlug" value="maximum-number-of-operations-with-the-same-score-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="E:/leetcode/leetcode/editor/cn/[347]前 K 个高频元素.java">
           <value>
             <LeetcodeEditor>
@@ -3102,6 +3135,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[347]前 K 个高频元素.java" />
               <option name="titleSlug" value="top-k-frequent-elements" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[377]组合总和 Ⅳ.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[377]组合总和 Ⅳ.md" />
+              <option name="frontendQuestionId" value="leetcode.cn377" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[377]组合总和 Ⅳ.java" />
+              <option name="titleSlug" value="combination-sum-iv" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3149,6 +3193,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[419]甲板上的战舰.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[419]甲板上的战舰.md" />
+              <option name="frontendQuestionId" value="leetcode.cn419" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[419]甲板上的战舰.java" />
+              <option name="titleSlug" value="battleships-in-a-board" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="E:/leetcode/leetcode/editor/cn/[427]建立四叉树.java">
           <value>
             <LeetcodeEditor>
@@ -3182,6 +3237,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[474]一和零.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[474]一和零.md" />
+              <option name="frontendQuestionId" value="leetcode.cn474" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[474]一和零.java" />
+              <option name="titleSlug" value="ones-and-zeroes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="E:/leetcode/leetcode/editor/cn/[47]全排列 II.java">
           <value>
             <LeetcodeEditor>
@@ -3193,6 +3259,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[494]目标和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[494]目标和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn494" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[494]目标和.java" />
+              <option name="titleSlug" value="target-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="E:/leetcode/leetcode/editor/cn/[501]二叉搜索树中的众数.java">
           <value>
             <LeetcodeEditor>
@@ -3201,6 +3278,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[501]二叉搜索树中的众数.java" />
               <option name="titleSlug" value="find-mode-in-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[518]零钱兑换 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[518]零钱兑换 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn518" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[518]零钱兑换 II.java" />
+              <option name="titleSlug" value="coin-change-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[521]最长特殊序列 Ⅰ.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[521]最长特殊序列 Ⅰ.md" />
+              <option name="frontendQuestionId" value="leetcode.cn521" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[521]最长特殊序列 Ⅰ.java" />
+              <option name="titleSlug" value="longest-uncommon-subsequence-i" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3245,6 +3344,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="E:/leetcode/leetcode/editor/cn/[572]另一棵树的子树.java" />
               <option name="titleSlug" value="subtree-of-another-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[581]最短无序连续子数组.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[581]最短无序连续子数组.md" />
+              <option name="frontendQuestionId" value="leetcode.cn581" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[581]最短无序连续子数组.java" />
+              <option name="titleSlug" value="shortest-unsorted-continuous-subarray" />
             </LeetcodeEditor>
           </value>
         </entry>
