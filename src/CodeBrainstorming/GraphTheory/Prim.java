@@ -17,6 +17,9 @@ public class Prim {
         // 边的数量
         int E = sc.nextInt();
         graph = new int[V + 1][ V + 1];
+        for (int[] ints : graph) {
+            Arrays.fill(ints, maxWeight);
+        }
         for (int i = 0; i < E; i++) {
             int from = sc.nextInt();
             int to = sc.nextInt();
@@ -24,7 +27,9 @@ public class Prim {
             graph[from][to] = weight;
         }
         int[] minDist = new int[V + 1];
+        int[] parent = new int[V + 1];
         Arrays.fill(minDist, maxWeight);
+        Arrays.fill(parent, -1);
         boolean[] inTree = new boolean[V + 1];
         for (int i = 1; i < V; i++) {
             // 1.选距离生成树最近的节点
@@ -45,10 +50,19 @@ public class Prim {
             // 3.
             for (int j = 1; j <= V; j++) {
                 if (!inTree[j] && graph[cur][j] < minDist[j]) {
-
+                    minDist[j] = graph[cur][j];
+                    parent[j] = cur;
                 }
             }
+        }
 
+        int res = 0;
+        for (int i = 2; i <= V; i++) {
+            res += minDist[i];
+        }
+        System.out.println(res);
+        for (int i = 1; i <= V; i++) {
+            System.out.println("" +parent[i] + "->" + i);
         }
     }
 }
