@@ -267,6 +267,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[1334]阈值距离内邻居最少的城市.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcode/editor/cn/doc/content/[1334]阈值距离内邻居最少的城市.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1334" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[1334]阈值距离内邻居最少的城市.java" />
+              <option name="titleSlug" value="find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[134]加油站.java">
           <value>
             <LeetcodeEditor>
@@ -792,6 +803,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[2288]价格减免.java" />
               <option name="titleSlug" value="apply-discount-to-prices" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[2304]网格中的最小路径代价.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcode/editor/cn/doc/content/[2304]网格中的最小路径代价.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2304" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[2304]网格中的最小路径代价.java" />
+              <option name="titleSlug" value="minimum-path-cost-in-a-grid" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1796,6 +1818,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[547]省份数量.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcode/editor/cn/doc/content/[547]省份数量.md" />
+              <option name="frontendQuestionId" value="leetcode.cn547" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[547]省份数量.java" />
+              <option name="titleSlug" value="number-of-provinces" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[54]螺旋矩阵.java">
           <value>
             <LeetcodeEditor>
@@ -2082,6 +2115,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[743]网络延迟时间.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcode/editor/cn/doc/content/[743]网络延迟时间.md" />
+              <option name="frontendQuestionId" value="leetcode.cn743" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[743]网络延迟时间.java" />
+              <option name="titleSlug" value="network-delay-time" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[746]使用最小花费爬楼梯.java">
           <value>
             <LeetcodeEditor>
@@ -2123,6 +2167,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[77]组合.java" />
               <option name="titleSlug" value="combinations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[787]K 站中转内最便宜的航班.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcode/editor/cn/doc/content/[787]K 站中转内最便宜的航班.md" />
+              <option name="frontendQuestionId" value="leetcode.cn787" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[787]K 站中转内最便宜的航班.java" />
+              <option name="titleSlug" value="cheapest-flights-within-k-stops" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2357,6 +2412,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[LCP 61]气温变化趋势.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcode/editor/cn/doc/content/[LCP 61]气温变化趋势.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCP 61" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[LCP 61]气温变化趋势.java" />
+              <option name="titleSlug" value="6CE719" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[LCR 057]存在重复元素 III.java">
           <value>
             <LeetcodeEditor>
@@ -2365,6 +2431,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[LCR 057]存在重复元素 III.java" />
               <option name="titleSlug" value="7WqeDu" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[LCR 098]不同路径.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcode/editor/cn/doc/content/[LCR 098]不同路径.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 098" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[LCR 098]不同路径.java" />
+              <option name="titleSlug" value="2AoeFn" />
             </LeetcodeEditor>
           </value>
         </entry>
