@@ -182,10 +182,10 @@
         <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[115]不同的子序列.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/../leetcode/editor/cn/doc/content/[115]不同的子序列.md" />
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[115]不同的子序列.md" />
               <option name="frontendQuestionId" value="leetcode.cn115" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[115]不同的子序列.java" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[115]不同的子序列.java" />
               <option name="titleSlug" value="distinct-subsequences" />
             </LeetcodeEditor>
           </value>
@@ -2720,6 +2720,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[115]不同的子序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[115]不同的子序列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn115" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[115]不同的子序列.java" />
+              <option name="titleSlug" value="distinct-subsequences" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="E:/leetcode/leetcode/editor/cn/[1164]指定日期的产品价格.java">
           <value>
             <LeetcodeEditor>
@@ -3204,6 +3215,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[207]课程表.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[207]课程表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn207" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[207]课程表.java" />
+              <option name="titleSlug" value="course-schedule" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="E:/leetcode/leetcode/editor/cn/[209]长度最小的子数组.java">
           <value>
             <LeetcodeEditor>
@@ -3212,6 +3234,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="E:/leetcode/leetcode/editor/cn/[209]长度最小的子数组.java" />
               <option name="titleSlug" value="minimum-size-subarray-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[210]课程表 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[210]课程表 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn210" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[210]课程表 II.java" />
+              <option name="titleSlug" value="course-schedule-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3498,6 +3531,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="E:/leetcode/leetcode/editor/cn/[2649]嵌套数组生成器.java" />
               <option name="titleSlug" value="nested-array-generator" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[2663]字典序最小的美丽字符串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[2663]字典序最小的美丽字符串.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2663" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[2663]字典序最小的美丽字符串.java" />
+              <option name="titleSlug" value="lexicographically-smallest-beautiful-string" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3839,6 +3883,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="E:/leetcode/leetcode/editor/cn/[518]零钱兑换 II.java" />
               <option name="titleSlug" value="coin-change-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[520]检测大写字母.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[520]检测大写字母.md" />
+              <option name="frontendQuestionId" value="leetcode.cn520" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[520]检测大写字母.java" />
+              <option name="titleSlug" value="detect-capital" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -4257,6 +4312,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="E:/leetcode/leetcode/editor/cn/[LCR 044]在每个树行中找最大值.java" />
               <option name="titleSlug" value="hPov7L" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="E:/leetcode/leetcode/editor/cn/[LCR 058]我的日程安排表 I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="E:/leetcode/leetcode/editor/cn/doc/content/[LCR 058]我的日程安排表 I.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 058" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="E:/leetcode/leetcode/editor/cn/[LCR 058]我的日程安排表 I.java" />
+              <option name="titleSlug" value="fi9suh" />
             </LeetcodeEditor>
           </value>
         </entry>
