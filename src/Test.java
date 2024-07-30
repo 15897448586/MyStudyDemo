@@ -49,21 +49,31 @@ public class Test {
         return res;
     }
 
-    public static void main(String[] args) {
-//        calculate(new Num(1,2,3), num -> {
-//            return num.a + num.b + num.c;
-//        });
-//
-//        calculate(new Num(1,2,3), num -> {
-//            return num.a * num.b * num.c;
-//        });
-//
-//        calculate(new Num(1,2,3), num -> {
-//            return num.a - num.b - num.c;
-//        });
-        sort();
+    private static final int N = 10000;
+    private static List<Integer> list = new ArrayList<>();
+    static {
+        boolean[] used = new boolean[N + 1];
+        for (int i = 2; i <= N; i++) {
+            if (!used[i]) {
+                for (int j = i * i; j <= N; j += i) {
+                    used[j] = true;
+                }
+                list.add(i);
+            }
+        }
     }
 
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        // 注意 hasNext 和 hasNextLine 的区别
+        int digit = in.nextInt();
+        for (int num : list) {
+            while (digit != 1 && digit % num == 0) {
+                digit /= num;
+                System.out.print(num + " ");
+            }
+        }
+    }
 
 
     private static int calculate(Num num,Function<Num ,Integer> function) {
